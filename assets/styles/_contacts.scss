@@ -1,0 +1,76 @@
+/* Страница контактов */
+
+.contacts-page {
+	.contacts-header {
+		padding: 15px 0;
+	}
+	.contacts-header h1 {
+		color: #3c3c3c;
+		margin: 0;
+		font-size: 30px;
+		//@include LiberationSerifRegular;
+	}
+	.contacts-header p {
+		color: #a2a2a2;
+		font-size: 14px;
+		//@include OpenSansRegular;
+	}
+	/**/
+	.contacts-info {
+		//@include OpenSansRegular;
+		padding: 15px 0;
+	}
+	.contacts-info p {
+		color: #999999;
+		font-size: 14px;
+	}
+	.contacts-info h4 {
+		color: #3c3c3c;
+		font-size: 18px;
+	}
+	/* блоки с иконками для блоков контактов */
+	.work-time {background: url(../img/icons/gray-clock.png) no-repeat 0px 0px; padding-left: 50px;}
+	.phone {background: url(../img/icons/gray-phone.png) no-repeat 0px 0px; padding-left: 50px;}
+	.email {background: url(../img/icons/gray-message.png) no-repeat 0px 0px; padding-left: 50px;}
+	.skype {background: url(../img/icons/gray-skype.png) no-repeat 0px 0px; padding-left: 50px;}
+	/* map-form */
+	.map-form {
+		padding: 15px 0;
+	}
+	/* inputs */
+	input, textarea {
+		background-color: #fafafa;
+		border: 1px solid #e6e6e6;
+		border-radius: 4px;
+		padding: 10px 20px;
+		color: #434343;
+		font-size: 14px;
+		margin: 10px 0;
+		//@include OpenSansRegular;
+	}
+	input::-webkit-input-placeholder {color: #434343;}
+	input:-moz-placeholder {color: #434343;}
+	textarea::-webkit-input-placeholder {color: #434343;}
+	textarea:-moz-placeholder {color: #434343;}
+	input[type="text"] {
+		width: 100%;
+		outline: none;
+	}
+	textarea {
+		width: 100%;
+		resize: none;
+		outline: none;
+	}
+	input[type="submit"] {
+		display: inline-block;
+		text-align: center;
+		//@include OpenSansRegular;
+		font-size: 17px;
+		color: #fff;
+		background-color: #8dd9d0;
+		padding: 10px 18px;
+		outline: none;
+	}
+}
+
+/* /Страница контактов */

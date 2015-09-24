@@ -1,0 +1,177 @@
+.articles-page {}
+
+.articles-contaiber {
+	background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.articles-page__title {
+	text-align: center;
+	@include OpenSansRegular;
+	padding-bottom: 40px;
+	//
+	h3 {
+		color: #3c3c3c;
+		font-size: 30px;
+	}
+	p {
+		color: #a2a2a2;
+		font-size: 14px;
+	}
+}
+
+.articles-page__posts {
+	@include OpenSansRegular;
+	padding-top: 20px;
+}
+
+
+/**/
+.articles-page__post {
+	margin-bottom: 40px;
+	margin-top: 20px;
+	//
+	img {
+		width: 100%; height: auto;
+		border: 1px solid #ccc;
+	}
+}
+h4.articles-page__post-title {
+	font-size: 30px;
+	color: #3c3c3c;
+	padding-top: 10px;
+}
+i.articles-page__post-date {
+	text-decoration: none;
+	text-transform: none;
+	color: #999999;
+	font-size: 14px;
+	&:before {
+		content: "";
+		display: inline-block;
+		width: 12px; height: 12px;
+		background: url(../img/icons/calendar.png) no-repeat center;
+		margin-right: 10px;
+	}
+}
+p.articles-page__post-text {
+	font-size: 14px;
+	color: #434343;
+	padding: 20px 0;
+}
+
+.articles-page__post-btn {
+	@include OpenSansRegular;
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 14px;
+	cursor: pointer;
+	background-color: #8dd9d0;
+	color: #fff;
+}
+
+/**/
+
+.articles-page__right-column {
+}
+
+.articles-page__right-column-title {
+	border-bottom: 1px solid #d9d9d9;
+	margin-bottom: 40px;
+	//
+	h3 {
+		@include OpenSansSemiBold;
+		font-size: 14px;
+		color: #3c3c3c;
+		text-transform: uppercase;
+		font-weight: 800;
+	}
+}
+
+.articles-page__category-container {
+	margin-bottom: 40px;
+	border: 1px solid #d9d9d9;
+	padding-bottom: 24px;
+}
+
+.articles-page__category-block {
+	padding: 20px; position: relative;
+	padding-bottom: 10px;
+	&:after {
+		content: "";
+		display: block;
+		border-bottom: 1px solid #d9d9d9;
+		padding-top: 10px;
+	}
+	//
+	a {
+		display: block;
+		width: 100%; height: 100%;
+		text-decoration: none;
+		color: #8dd9d0;
+		position: relative;
+		@include OpenSansSemiBold;
+		font-size: 14px;
+		//
+		&:before {
+			content: ">";
+			display: block;
+			position: absolute;
+			top: 0; right: 0;
+			@include OpenSansSemiBold;
+			font-weight: 800;
+			color: #d9d9d9;
+		}
+	}
+}
+
+/**/
+
+.articles-page__latest-posts-container {
+	border: 1px solid #d9d9d9;
+	padding: 20px;
+	margin-bottom: 30px;
+	//
+	a {
+		text-decoration: none;
+	}
+}
+
+h4.articles-page__latest-posts-title {
+	font-size: 18px;
+	color: #8dd9d0;
+	text-decoration: none;
+}
+
+i.articles-page__latest-posts-date {
+	text-decoration: none;
+	text-transform: none;
+	color: #999999;
+	font-size: 14px;
+	&:before {
+		content: "";
+		display: inline-block;
+		width: 12px; height: 12px;
+		background: url(../img/icons/calendar.png) no-repeat center;
+		margin-right: 10px;
+	}
+}
+
+/**/
+
+.articles-page__tags-container {
+	padding: 0px 0;
+}
+a.articles-page__tag {
+	display: inline-block;
+	@include OpenSansBold;
+	font-size: 14px;
+	color: #fff;
+	padding: 6px 10px;
+	background-color: #8dd9d0;
+	font-style: normal;
+	text-decoration: none;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}

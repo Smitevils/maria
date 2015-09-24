@@ -1,1 +1,15 @@
 @import 'fonts';
+@import 'animation';
+@import 'header';
+@import 'contacts';
+@import 'reviews';
+@import 'articles';
+@import 'general';
+@import 'footer';
+
+* {outline: 1px yellowgreen  dashed;}
+
+body {
+	background-color: #edf9f8;
+}
+
